@@ -1,0 +1,50 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "description": "Nitin",
+        "version": "1.0.0",
+        "title": "Nitin-Python3-Flask-Rest-Boilerplate",
+        "license": {
+            "name": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+        }
+    },
+    "servers": [
+        {
+            "url": "/"
+        }
+    ],
+    "tags": [
+        {
+            "name": "My First App",
+            "description": "Example API for First App"
+        }
+    ],
+    "components": {
+        "schemas": {
+            "id": {
+                "properties": {
+                    "uuid": {
+                        "type": "string"
+                    }
+                }
+            },
+            "email": {
+                "properties": {
+                    "email": {
+                        "type": "string",
+                        "format": "email"
+                    }
+                }
+            },
+            "password": {
+                "properties": {
+                    "email": {
+                        "type": "string",
+                        "format": "password"
+                    }
+                }
+            }
+        }
+    }
+}
